@@ -11,20 +11,26 @@
 ---
 
 - 홈
-![simulator_screenshot_CF888D1E-7119-4713-98BF-493120B8783E](https://github.com/user-attachments/assets/b9ffb85c-22f4-4247-97e2-119470d69cdf)
+<img src = "https://github.com/user-attachments/assets/b9ffb85c-22f4-4247-97e2-119470d69cdf"
+width = "200" height = "400"/>
+
 
 
 
 - 검색화면
-![simulator_screenshot_182CEBE0-586E-4B54-9108-9CAE406BF525](https://github.com/user-attachments/assets/b8da0bcf-8d42-4a32-8e26-8468611a2dbb)
+<img src = "https://github.com/user-attachments/assets/b8da0bcf-8d42-4a32-8e26-8468611a2dbb"
+width = "200" height = "400"/>
 
 
 
 ---
 
 - 전체목록
-![simulator_screenshot_60FAA0B2-7FC0-4B60-8721-9B6E78F5CD1A](https://github.com/user-attachments/assets/0a44b3fd-5695-4d57-8dca-7fd2a10827f7)
+<img src = "https://github.com/user-attachments/assets/0a44b3fd-5695-4d57-8dca-7fd2a10827f7"
+width = "200" height = "400"/>
+
     
 
 - 상세화면
-![simulator_screenshot_6C60CD8B-E873-4D16-BD4B-48879EF9ADB3](https://github.com/user-attachments/assets/739eae9a-b1a8-4ff0-9aae-cd0070d9f59b)
+<img src = "https://github.com/user-attachments/assets/739eae9a-b1a8-4ff0-9aae-cd0070d9f59b"
+width = "200" height = "400"/>
