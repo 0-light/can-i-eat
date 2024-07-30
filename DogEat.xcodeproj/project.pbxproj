@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		519329D08AE79051D6026939 /* Pods_DogEat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23CBC0ADEB93F3E40425C0D8 /* Pods_DogEat.framework */; };
+		561BA1652C2423A500EEEEEA /* DrinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561BA1642C2423A500EEEEEA /* DrinkViewController.swift */; };
+		561BA1672C24241900EEEEEA /* EtcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561BA1662C24241900EEEEEA /* EtcViewController.swift */; };
+		561BA1692C244A7F00EEEEEA /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561BA1682C244A7F00EEEEEA /* SearchTableViewCell.swift */; };
+		56FED12A2C038E380098003F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FED1292C038E380098003F /* AppDelegate.swift */; };
+		56FED12C2C038E380098003F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FED12B2C038E380098003F /* SceneDelegate.swift */; };
+		56FED12E2C038E380098003F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FED12D2C038E380098003F /* ViewController.swift */; };
+		56FED1312C038E380098003F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56FED12F2C038E380098003F /* Main.storyboard */; };
+		56FED1332C038E390098003F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56FED1322C038E390098003F /* Assets.xcassets */; };
+		56FED1362C038E390098003F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56FED1342C038E390098003F /* LaunchScreen.storyboard */; };
+		56FED1602C0609A60098003F /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FED15F2C0609A60098003F /* FoodTableViewCell.swift */; };
+		56FED1622C060E480098003F /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FED1612C060E480098003F /* ListViewController.swift */; };
+		56FED1642C08965F0098003F /* FoodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FED1632C08965F0098003F /* FoodItem.swift */; };
+		56FED1662C0899F60098003F /* FoodItemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FED1652C0899F60098003F /* FoodItemManager.swift */; };
+		56FED16C2C107CFE0098003F /* FoodDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FED16B2C107CFE0098003F /* FoodDetailViewController.swift */; };
+		56FED16E2C109AED0098003F /* FoodDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FED16D2C109AED0098003F /* FoodDetailTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23CBC0ADEB93F3E40425C0D8 /* Pods_DogEat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DogEat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48BFB52AF2CA61883DFA9A87 /* Pods-DogEat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogEat.release.xcconfig"; path = "Target Support Files/Pods-DogEat/Pods-DogEat.release.xcconfig"; sourceTree = "<group>"; };
+		561BA1642C2423A500EEEEEA /* DrinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkViewController.swift; sourceTree = "<group>"; };
+		561BA1662C24241900EEEEEA /* EtcViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtcViewController.swift; sourceTree = "<group>"; };
+		561BA1682C244A7F00EEEEEA /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		56FED1262C038E380098003F /* DogEat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogEat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56FED1292C038E380098003F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		56FED12B2C038E380098003F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		56FED12D2C038E380098003F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		56FED1302C038E380098003F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56FED1322C038E390098003F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56FED1352C038E390098003F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		56FED1372C038E390098003F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56FED15F2C0609A60098003F /* FoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
+		56FED1612C060E480098003F /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		56FED1632C08965F0098003F /* FoodItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItem.swift; sourceTree = "<group>"; };
+		56FED1652C0899F60098003F /* FoodItemManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItemManager.swift; sourceTree = "<group>"; };
+		56FED16B2C107CFE0098003F /* FoodDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailViewController.swift; sourceTree = "<group>"; };
+		56FED16D2C109AED0098003F /* FoodDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailTableViewCell.swift; sourceTree = "<group>"; };
+		F80396DAABE158D7C90BBA69 /* Pods-DogEat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogEat.debug.xcconfig"; path = "Target Support Files/Pods-DogEat/Pods-DogEat.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56FED1232C038E380098003F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				519329D08AE79051D6026939 /* Pods_DogEat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F550804AEB6D296DA6D729B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F80396DAABE158D7C90BBA69 /* Pods-DogEat.debug.xcconfig */,
+				48BFB52AF2CA61883DFA9A87 /* Pods-DogEat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		561BA16A2C244A8E00EEEEEA /* FirstView */ = {
+			isa = PBXGroup;
+			children = (
+				56FED12D2C038E380098003F /* ViewController.swift */,
+				561BA1682C244A7F00EEEEEA /* SearchTableViewCell.swift */,
+			);
+			path = FirstView;
+			sourceTree = "<group>";
+		};
+		561BA16B2C244A9E00EEEEEA /* SecondView */ = {
+			isa = PBXGroup;
+			children = (
+				56FED1612C060E480098003F /* ListViewController.swift */,
+				561BA1642C2423A500EEEEEA /* DrinkViewController.swift */,
+				561BA1662C24241900EEEEEA /* EtcViewController.swift */,
+				56FED16D2C109AED0098003F /* FoodDetailTableViewCell.swift */,
+			);
+			path = SecondView;
+			sourceTree = "<group>";
+		};
+		561BA16C2C244ABD00EEEEEA /* LastView */ = {
+			isa = PBXGroup;
+			children = (
+				56FED16B2C107CFE0098003F /* FoodDetailViewController.swift */,
+				56FED15F2C0609A60098003F /* FoodTableViewCell.swift */,
+			);
+			path = LastView;
+			sourceTree = "<group>";
+		};
+		56FED11D2C038E380098003F = {
+			isa = PBXGroup;
+			children = (
+				56FED1282C038E380098003F /* DogEat */,
+				56FED1272C038E380098003F /* Products */,
+				3F550804AEB6D296DA6D729B /* Pods */,
+				7BCBB88D74DE59F43BA765E6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		56FED1272C038E380098003F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56FED1262C038E380098003F /* DogEat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56FED1282C038E380098003F /* DogEat */ = {
+			isa = PBXGroup;
+			children = (
+				56FED12F2C038E380098003F /* Main.storyboard */,
+				56FED1292C038E380098003F /* AppDelegate.swift */,
+				56FED12B2C038E380098003F /* SceneDelegate.swift */,
+				56FED1632C08965F0098003F /* FoodItem.swift */,
+				56FED1652C0899F60098003F /* FoodItemManager.swift */,
+				561BA16A2C244A8E00EEEEEA /* FirstView */,
+				561BA16B2C244A9E00EEEEEA /* SecondView */,
+				561BA16C2C244ABD00EEEEEA /* LastView */,
+				56FED1322C038E390098003F /* Assets.xcassets */,
+				56FED1342C038E390098003F /* LaunchScreen.storyboard */,
+				56FED1372C038E390098003F /* Info.plist */,
+			);
+			path = DogEat;
+			sourceTree = "<group>";
+		};
+		7BCBB88D74DE59F43BA765E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23CBC0ADEB93F3E40425C0D8 /* Pods_DogEat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56FED1252C038E380098003F /* DogEat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56FED13A2C038E390098003F /* Build configuration list for PBXNativeTarget "DogEat" */;
+			buildPhases = (
+				922E51005051E6702DCF2EF3 /* [CP] Check Pods Manifest.lock */,
+				56FED1222C038E380098003F /* Sources */,
+				56FED1232C038E380098003F /* Frameworks */,
+				56FED1242C038E380098003F /* Resources */,
+				8E7B24DCCB1F853EBDCC7459 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DogEat;
+			productName = DogEat;
+			productReference = 56FED1262C038E380098003F /* DogEat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56FED11E2C038E380098003F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					56FED1252C038E380098003F = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 56FED1212C038E380098003F /* Build configuration list for PBXProject "DogEat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56FED11D2C038E380098003F;
+			productRefGroup = 56FED1272C038E380098003F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56FED1252C038E380098003F /* DogEat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56FED1242C038E380098003F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56FED1362C038E390098003F /* LaunchScreen.storyboard in Resources */,
+				56FED1332C038E390098003F /* Assets.xcassets in Resources */,
+				56FED1312C038E380098003F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8E7B24DCCB1F853EBDCC7459 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DogEat/Pods-DogEat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DogEat/Pods-DogEat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DogEat/Pods-DogEat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		922E51005051E6702DCF2EF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DogEat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56FED1222C038E380098003F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56FED16C2C107CFE0098003F /* FoodDetailViewController.swift in Sources */,
+				56FED12E2C038E380098003F /* ViewController.swift in Sources */,
+				56FED1602C0609A60098003F /* FoodTableViewCell.swift in Sources */,
+				56FED16E2C109AED0098003F /* FoodDetailTableViewCell.swift in Sources */,
+				56FED12A2C038E380098003F /* AppDelegate.swift in Sources */,
+				56FED1622C060E480098003F /* ListViewController.swift in Sources */,
+				56FED1642C08965F0098003F /* FoodItem.swift in Sources */,
+				56FED1662C0899F60098003F /* FoodItemManager.swift in Sources */,
+				56FED12C2C038E380098003F /* SceneDelegate.swift in Sources */,
+				561BA1692C244A7F00EEEEEA /* SearchTableViewCell.swift in Sources */,
+				561BA1672C24241900EEEEEA /* EtcViewController.swift in Sources */,
+				561BA1652C2423A500EEEEEA /* DrinkViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		56FED12F2C038E380098003F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56FED1302C038E380098003F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		56FED1342C038E390098003F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56FED1352C038E390098003F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56FED1382C038E390098003F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		56FED1392C038E390098003F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56FED13B2C038E390098003F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F80396DAABE158D7C90BBA69 /* Pods-DogEat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UPQN54TUP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DogEat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.glory.DogEat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56FED13C2C038E390098003F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48BFB52AF2CA61883DFA9A87 /* Pods-DogEat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UPQN54TUP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DogEat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.glory.DogEat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56FED1212C038E380098003F /* Build configuration list for PBXProject "DogEat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56FED1382C038E390098003F /* Debug */,
+				56FED1392C038E390098003F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56FED13A2C038E390098003F /* Build configuration list for PBXNativeTarget "DogEat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56FED13B2C038E390098003F /* Debug */,
+				56FED13C2C038E390098003F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56FED11E2C038E380098003F /* Project object */;
+}
